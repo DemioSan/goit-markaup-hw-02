@@ -7,7 +7,12 @@ body {
 header {
   background-color: #ffffff;
 }
-
+.header-line {
+  display: inline;
+}
+.header-line li {
+  display: inline;
+}
 /* Logo*/
 .logo {
   font-family: "Raleway";
@@ -36,6 +41,7 @@ header {
   padding-bottom: 24px;
   padding-left: 40px;
 }
+
 address: {
   font-style: normal;
   font-weight: 400;
