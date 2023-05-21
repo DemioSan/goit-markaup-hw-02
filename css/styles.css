@@ -1,0 +1,44 @@
+/* Main page */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+header {
+  background-color: #ffffff;
+}
+
+/* Logo*/
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 156px;
+  padding-right: 76px;
+}
+.logo-part1 {
+  color: #4d5ae5;
+}
+.logo-part2 {
+  color: #2e2f42;
+}
+
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 40px;
+}
+address: {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
