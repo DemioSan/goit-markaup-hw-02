@@ -4,26 +4,41 @@ body {
   color: #434455;
   letter-spacing: 0.02em;
 }
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+
 header {
   background-color: #ffffff;
 }
-.header-line {
-  display: inline;
-}
-.header-line li {
-  display: inline;
-}
+
 /* Logo*/
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 156px;
-  padding-right: 76px;
 }
 .logo-part1 {
   color: #4d5ae5;
@@ -43,8 +58,42 @@ header {
 }
 
 address: {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+/*Hero image (Figma)/Section 1 (VSC)*/
+.section1 {
+  background-color: #2e2f42;
+}
+
+.button-order-service {
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+/*Section 1 (Figma)/Section 2 (VSC)*/
+.section2 {
+  background-color: #ffffff;
+}
+
+.section2-p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Section 2 (Figma)/Section 3 (VSC)*/
+
+/* Section 3 (Figma)/Section 4 (VSC)*/
+.section4 {
+  background-color: #f4f4fd;
 }
