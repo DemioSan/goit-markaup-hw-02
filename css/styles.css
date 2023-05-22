@@ -39,6 +39,7 @@ header {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
+  text-decoration: none;
 }
 .logo-part1 {
   color: #4d5ae5;
@@ -47,8 +48,16 @@ header {
   color: #2e2f42;
 }
 
+.logo-footer-part1 {
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.logo-footer-part2 {
+  color: #f4f4fd;
+  text-decoration: none;
+}
+
 .header-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -57,9 +66,35 @@ header {
   padding-left: 40px;
 }
 
+.header-link-nav {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.header-link .header-link-nav:hover,
+.header-link .header-link-nav:focus {
+  color: #404bbf;
+}
+
+.header-link .header-link-nav:active {
+  color: #2e2f42;
+}
+
 address: {
   font-size: 16px;
   line-height: 24px;
+  color: #434455;
+}
+.address-link-nav {
+  color: #434455;
+  text-decoration: none;
+}
+.address-link .address-link-nav:hover,
+.address-link .address-link-nav:focus {
+  color: #404bbf;
+}
+
+.address-link .address-link-nav:active {
+  color: #434455;
 }
 
 /*Hero image (Figma)/Section 1 (VSC)*/
@@ -81,6 +116,20 @@ address: {
   color: #ffffff;
 }
 
+.button-order-service:hover,
+.button-order-service:focus {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
 /*Section 1 (Figma)/Section 2 (VSC)*/
 .section2 {
   background-color: #ffffff;
@@ -92,8 +141,69 @@ address: {
 }
 
 /* Section 2 (Figma)/Section 3 (VSC)*/
+.section2 {
+  border: 1px solid #e7e9fc;
+}
 
 /* Section 3 (Figma)/Section 4 (VSC)*/
 .section4 {
   background-color: #f4f4fd;
+}
+.team-card {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/*Footer*/
+footer {
+  background: #2e2f42;
+}
+.footer-p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f4fd;
+}
+
+/* PORTFOLIO */
+
+/* Filters*/
+
+.filters {
+  background-color: #ffffff;
+}
+.button-filters {
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d5ae5;
+}
+
+.button-filters:hover,
+.button-filters:focus {
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/* Row 1*/
+.row {
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+.project-card {
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
 }
