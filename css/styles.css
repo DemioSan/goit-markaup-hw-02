@@ -17,6 +17,8 @@ h1 {
   line-height: 60px;
   text-align: center;
   color: #ffffff;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -100,6 +102,8 @@ address: {
 .address-link-nav {
   color: #434455;
   text-decoration: none;
+  line-height: 1.5;
+  font-style: normal;
 }
 .address-link .address-link-nav:hover,
 .address-link .address-link-nav:focus {
