@@ -117,7 +117,7 @@ address: {
 }
 
 /*Hero image (Figma)/Section 1 (VSC)*/
-.section1 {
+.section-one {
   line-height: 1.07;
   background-color: #2e2f42;
   letter-spacing: 0.02em;
@@ -144,22 +144,22 @@ address: {
   color: #ffffff;
 }
 /*Section 1 (Figma)/Section 2 (VSC)*/
-.section2 {
+.section-two {
   background-color: #ffffff;
 }
 
-.section2-p {
+.section-two-p {
   font-size: 16px;
   line-height: 24px;
 }
 
 /* Section 2 (Figma)/Section 3 (VSC)*/
-.section2 {
+.section-three {
   border: 1px solid #e7e9fc;
 }
 
 /* Section 3 (Figma)/Section 4 (VSC)*/
-.section4 {
+.section-four {
   background-color: #f4f4fd;
 }
 .team-card {
@@ -167,7 +167,7 @@ address: {
   font-size: 16px;
   line-height: 1.5;
 }
-.section4-p {
+.section-four-p {
   font-size: 16px;
 }
 
