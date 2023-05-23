@@ -185,7 +185,7 @@ footer {
 
 /* Filters*/
 
-.filters {
+.section-portfolio {
   background-color: #ffffff;
 }
 .button-filters {
@@ -205,11 +205,6 @@ footer {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
-}
-
-/* Row 1*/
-.row {
-  background: #ffffff;
 }
 
 .project-card {
