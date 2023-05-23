@@ -1,8 +1,14 @@
+:root {
+  background-color: #ffffff;
+}
+
 /* Main page */
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -20,6 +26,8 @@ h2 {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 h3 {
@@ -27,24 +35,34 @@ h3 {
   font-size: 20px;
   line-height: 24px;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 header {
   background-color: #ffffff;
 }
+.list {
+  list-style: none;
+}
 
+.link {
+  text-decoration: none;
+}
 /* Logo*/
+
 .logo {
-  font-family: "Raleway";
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
   text-decoration: none;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-.logo-part1 {
-  color: #4d5ae5;
-}
-.logo-part2 {
+span {
   color: #2e2f42;
 }
 
@@ -61,9 +79,6 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 40px;
 }
 
 .header-link-nav {
@@ -76,13 +91,15 @@ header {
 }
 
 .header-link .header-link-nav:active {
-  color: #2e2f42;
+  color: #404bbf;
 }
 
 address: {
   font-size: 16px;
   line-height: 24px;
   color: #434455;
+  font-style: normal;
+  line-height: 1.5;
 }
 .address-link-nav {
   color: #434455;
@@ -99,34 +116,28 @@ address: {
 
 /*Hero image (Figma)/Section 1 (VSC)*/
 .section1 {
+  line-height: 1.07;
   background-color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .button-order-service {
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
 .button-order-service:hover,
 .button-order-service:focus {
   background: #404bbf;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
@@ -151,9 +162,8 @@ address: {
 }
 .team-card {
   background: #ffffff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /*Footer*/
@@ -176,7 +186,6 @@ footer {
 .button-filters {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
-  border-radius: 4px;
 
   font-weight: 500;
   font-size: 16px;
@@ -187,10 +196,6 @@ footer {
 .button-filters:hover,
 .button-filters:focus {
   background: #404bbf;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -199,7 +204,6 @@ footer {
 
 /* Row 1*/
 .row {
-  box-sizing: border-box;
   background: #ffffff;
 }
 
