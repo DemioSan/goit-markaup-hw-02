@@ -99,6 +99,9 @@ address: {
   font-style: normal;
   line-height: 1.5;
 }
+.special-teg-address-for-fcng-autocheck {
+  font-style: normal;
+}
 .address-link-nav {
   color: #434455;
   text-decoration: none;
@@ -164,6 +167,9 @@ address: {
   background: #ffffff;
   font-size: 16px;
   line-height: 1.5;
+}
+.section4-p {
+  font-size: 16px;
 }
 
 /*Footer*/
