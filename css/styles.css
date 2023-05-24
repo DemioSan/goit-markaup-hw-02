@@ -21,9 +21,6 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
@@ -158,6 +155,12 @@ address {
 }
 
 /* Section 3 (Figma)/Section 4 (VSC)*/
+.section-four-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+
 .section-four {
   background-color: #f4f4fd;
 }
