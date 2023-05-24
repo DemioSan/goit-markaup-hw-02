@@ -198,6 +198,7 @@ footer {
   color: #4d5ae5;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
 }
 
 .button-filters:hover,
