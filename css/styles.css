@@ -1,7 +1,3 @@
-:root {
-  letter-spacing: 0.02em;
-}
-
 /* Main page */
 
 body {
@@ -10,7 +6,10 @@ body {
   letter-spacing: 0.02em;
   background-color: #ffffff;
 }
-
+:root {
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
 h1 {
   font-weight: 700;
   font-size: 56px;
@@ -219,4 +218,9 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.porfolio-h {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
