@@ -196,6 +196,8 @@ footer {
   font-size: 16px;
   line-height: 24px;
   color: #4d5ae5;
+  font-family: "Roboto, sans-serif";
+  cursor: pointer;
 }
 
 .button-filters:hover,
@@ -210,4 +212,10 @@ footer {
 .project-card {
   background: #ffffff;
   border: 1px solid #e7e9fc;
+}
+.portfolio-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
